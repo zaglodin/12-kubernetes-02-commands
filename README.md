@@ -29,7 +29,6 @@ NAME                                     READY   STATUS    RESTARTS   AGE
 hello-node-deployment-7d9648587d-pqk5t   1/1     Running   0          8m9s
 hello-node-deployment-7d9648587d-w8xx9   1/1     Running   0          8m9s
 ```
-В ответе видно 5 подов, так-как сначала выполнил третье задание.
 
 Задание 3: Изменение количества реплик
 

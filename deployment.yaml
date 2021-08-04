@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-node-deployment
+  namespace: app-namespace
+spec:
+  selector:
+    matchLabels:
+      app: hello-node-deployment
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: hello-node-deployment
+    spec:
+      containers:
+      - name: hello-node-deployment
+        image: k8s.gcr.io/echoserver:1.10
+        ports:
+        - containerPort: 80

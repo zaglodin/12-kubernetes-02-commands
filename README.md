@@ -35,8 +35,6 @@ hello-node-deployment-7d9648587d-w8xx9   1/1     Running   0          8m9s
 ```shell
 PS C:\Users\zaglo\OneDrive\Desktop\Обучение\4 Модуль\12-kubernetes-02-commands> kubectl apply -f deployment.yaml
 deployment.apps/hello-node-deployment created
-PS C:\Users\zaglo\OneDrive\Desktop\Обучение\4 Модуль\12-kubernetes-02-commands> kubectl get pods
-No resources found in default namespace.
 PS C:\Users\zaglo\OneDrive\Desktop\Обучение\4 Модуль\12-kubernetes-02-commands> kubectl get pods -n=app-namespace                 
 NAME                                     READY   STATUS    RESTARTS   AGE
 hello-node-deployment-7d9648587d-8m2rf   1/1     Running   0          64s
